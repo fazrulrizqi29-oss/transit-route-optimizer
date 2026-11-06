@@ -1,0 +1,25 @@
+{
+  "name": "transit-route-optimizer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Transit Route Optimizer – pencarian dan optimasi rute angkutan umum berbasis graph (UCS & Greedy)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/algorithms.test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "vite": "^6.0.1",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}
